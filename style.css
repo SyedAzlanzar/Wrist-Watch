@@ -1,0 +1,887 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: "Montserrat";
+}
+
+.mint-header {
+  height: 8vh;
+  background: #fff;
+  -webkit-box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.425);
+          box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.425);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mint-header .logo {
+  width: 60%;
+  padding-left: 120px;
+}
+
+.mint-header .header-content {
+  width: 40%;
+  font-family: "Montserrat";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 600;
+  padding: 0px 120px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.left-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.left-right .left {
+  height: 70vh;
+  width: 50%;
+  margin-top: 150px;
+  margin-left: 120px;
+}
+
+.left-right .left h1 {
+  line-height: 1em;
+  padding-right: 100px;
+  margin: 0%;
+  font-size: 48px;
+  font-family: Montserrat;
+}
+
+.left-right .left p {
+  margin-right: 50px;
+}
+
+.left-right .left .send-msg {
+  background: yellow;
+  height: 6vh;
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.left-right .left .send-msg button {
+  border: none;
+  background: none;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.left-right .left .send-msg:hover {
+  background: #f0f00c;
+}
+
+.left-right .right {
+  height: 70vh;
+  background: url("./images/wristwatches/giridhar-prabhu-9DDGvPS-2Ac-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  margin-top: 80px;
+  margin-right: 120px;
+}
+
+.workspace {
+  margin: 0px 120px;
+}
+
+.workspace h1 {
+  font-size: 48px;
+  padding: 0;
+  margin: 0%;
+}
+
+.workspace .sub-workspace {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 8vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+
+.workspace .sub-workspace .workspace-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  width: 50%;
+}
+
+.workspace .sub-workspace .workspace-content div {
+  padding: 8px 20px;
+}
+
+.workspace .sub-workspace .workspace-content div:nth-child(1) {
+  background: yellow;
+}
+
+.workspace .sub-workspace .workspace-content div:nth-child(1):hover {
+  background: #f0f00c;
+  cursor: pointer;
+}
+
+.workspace .sub-workspace select {
+  font-weight: 600;
+  font-family: "Montserrat";
+  border: none;
+  font-size: 14px;
+  outline: none;
+}
+
+.workspace .images {
+  height: 104vh;
+  margin: 30px 30px;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.144);
+          box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.144);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.workspace .images .div1 {
+  width: 32%;
+}
+
+.workspace .images .div1 .div1-1 {
+  height: 40vh;
+  margin-bottom: 16px;
+  background: url("./images/wristwatches/1.jpg");
+  background-size: cover;
+}
+
+.workspace .images .div1 .div1-2 {
+  height: 60vh;
+  margin-top: 16px;
+  background: url("./images/wristwatches/2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.workspace .images .div2 {
+  width: 32%;
+}
+
+.workspace .images .div2 .div2-1 {
+  height: 60vh;
+  margin-bottom: 16px;
+  background: url("./images/wristwatches/3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.workspace .images .div2 .div2-2 {
+  height: 40vh;
+  margin-top: 16px;
+  background: url("./images/wristwatches/4.jpg");
+  background-size: cover;
+}
+
+.workspace .images .div3 {
+  width: 32%;
+}
+
+.workspace .images .div3 .div3-1 {
+  height: 40vh;
+  margin-bottom: 16px;
+  background: url("./images/wristwatches/5.jpg");
+  background-size: cover;
+}
+
+.workspace .images .div3 .div3-2 {
+  height: 60vh;
+  margin-top: 16px;
+  background: url("./images/wristwatches/1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.workspace .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  background: yellow;
+  height: 6vh;
+  width: 15%;
+}
+
+.workspace .btn button {
+  border: none;
+  background: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.workspace .btn:hover {
+  background: #f0f00c;
+}
+
+.partners {
+  height: 18vh;
+  margin: 100px 120px;
+}
+
+.partners .all-partners {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.partners .all-partners .partner-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 18vh;
+  width: 14%;
+}
+
+.partners .all-partners .partner-2 {
+  height: 18vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 14%;
+}
+
+.partners .all-partners .partner-3 {
+  height: 18vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 14%;
+}
+
+.partners .all-partners .partner-4 {
+  height: 18vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 14%;
+}
+
+.partners .all-partners .partner-5 {
+  height: 18vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 14%;
+}
+
+.partners .all-partners .partner-6 {
+  height: 18vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 14%;
+}
+
+.about-us {
+  margin: 100px 120px;
+  height: 80vh;
+  background: #fbfffb;
+}
+
+.about-us h1 {
+  font-size: 48px;
+  padding: 0;
+  margin: 0%;
+}
+
+.about-us .para {
+  width: 70%;
+}
+
+.about-us .about-content {
+  height: 50vh;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-us .about-content .about-div-1 {
+  width: 30%;
+  height: 50vh;
+  background-color: #9c7e7e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.about-us .about-content .about-div-1 div {
+  background: yellow;
+  width: 70%;
+  height: 8vh;
+}
+
+.about-us .about-content .about-div-1 div p {
+  padding: 0%;
+  margin: 0;
+}
+
+.about-us .about-content .about-div-1 div p:nth-child(1) {
+  font-weight: 600;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.about-us .about-content .about-div-1 div p:nth-child(2) {
+  margin-left: 10px;
+  font-size: 14px;
+  font-family: "Montserrat";
+}
+
+.about-us .about-content .about-div-2 {
+  height: 50vh;
+  width: 30%;
+  background-color: grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.about-us .about-content .about-div-2 div {
+  background: yellow;
+  width: 70%;
+  height: 8vh;
+}
+
+.about-us .about-content .about-div-2 div p {
+  padding: 0%;
+  margin: 0;
+}
+
+.about-us .about-content .about-div-2 div p:nth-child(1) {
+  font-weight: 600;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.about-us .about-content .about-div-2 div p:nth-child(2) {
+  margin-left: 10px;
+  font-size: 14px;
+  font-family: "Montserrat";
+}
+
+.about-us .about-content .about-div-3 {
+  height: 50vh;
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-us .about-content .about-div-3 div {
+  margin: 0px 20px;
+}
+
+.about-us .about-content .about-div-3 div p {
+  padding-right: 10px;
+  line-height: 1.5em;
+  font-weight: 500;
+}
+
+.about-us .about-content .about-div-3 div button {
+  margin-top: 30px;
+  font-size: 14px;
+  background: none;
+  font-weight: 600;
+  border: none;
+  padding: 8px 12px;
+  -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.237);
+          box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.237);
+}
+
+.about-us .about-content .about-div-3 div button:hover {
+  -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.637);
+          box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.637);
+}
+
+.blog {
+  margin: 80px 120px;
+}
+
+.blog h1 {
+  font-size: 48px;
+  padding: 0%;
+  margin: 0%;
+}
+
+.blog .para {
+  width: 70%;
+}
+
+.blog .sub-blog {
+  margin-top: 40px;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.blog .sub-blog .blog1 {
+  height: 78vh;
+  width: 30%;
+}
+
+.blog .sub-blog .blog1 .image {
+  margin: 20px 20px 0px 20px;
+  height: 36vh;
+  background: url("./images/wristwatches/6 (1).jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.blog .sub-blog .blog1 .content {
+  margin: 10px 20px 0px 20px;
+  height: 33vh;
+}
+
+.blog .sub-blog .blog1 .content h3 {
+  text-align: center;
+}
+
+.blog .sub-blog .blog1 .content p {
+  text-align: center;
+}
+
+.blog .sub-blog .blog1 .content div {
+  height: 5vh;
+  width: 40%;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  margin: 40px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.blog .sub-blog .blog1 .content div button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.blog .sub-blog .blog1 .content div:hover {
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+
+.blog .sub-blog .blog2 {
+  height: 78vh;
+  width: 30%;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.201);
+          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.201);
+}
+
+.blog .sub-blog .blog2 .image {
+  margin: 20px 20px 0px 20px;
+  height: 36vh;
+  background: url("./images/wristwatches/6 (2).jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.blog .sub-blog .blog2 .content {
+  margin: 10px 20px 0px 20px;
+  height: 33vh;
+}
+
+.blog .sub-blog .blog2 .content h3 {
+  text-align: center;
+}
+
+.blog .sub-blog .blog2 .content p {
+  text-align: center;
+}
+
+.blog .sub-blog .blog2 .content div {
+  height: 5vh;
+  width: 40%;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  margin: 40px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.blog .sub-blog .blog2 .content div button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.blog .sub-blog .blog2 .content div:hover {
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+
+.blog .sub-blog .blog3 {
+  height: 78vh;
+  width: 30%;
+}
+
+.blog .sub-blog .blog3 .image {
+  margin: 20px 20px 0px 20px;
+  height: 36vh;
+  background: url("./images/wristwatches/6 (4).jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.blog .sub-blog .blog3 .content {
+  margin: 10px 20px 0px 20px;
+  height: 33vh;
+}
+
+.blog .sub-blog .blog3 .content h3 {
+  text-align: center;
+}
+
+.blog .sub-blog .blog3 .content p {
+  text-align: center;
+}
+
+.blog .sub-blog .blog3 .content div {
+  height: 5vh;
+  width: 40%;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  margin: 40px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.blog .sub-blog .blog3 .content div button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.blog .sub-blog .blog3 .content div:hover {
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+
+.contact-us {
+  margin: 0px 120px;
+  margin-bottom: 40px;
+  height: 90vh;
+  margin-top: 100px;
+}
+
+.contact-us h1 {
+  font-size: 48px;
+  padding: 0;
+  margin: 0%;
+}
+
+.contact-us .para {
+  width: 60%;
+}
+
+.contact-us .contact-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-us .contact-form .left {
+  height: 75vh;
+  width: 50%;
+}
+
+.contact-us .contact-form .left label {
+  font-weight: 600;
+}
+
+.contact-us .contact-form .left input {
+  margin-top: 6px;
+  width: 52%;
+  border: none;
+  background: none;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.26);
+          box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.26);
+  padding: 10px 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+.contact-us .contact-form .left textarea {
+  margin-top: 6px;
+  font-size: 16px;
+  padding: 4px 10px;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.26);
+          box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.26);
+  line-height: 1.5em;
+  outline: none;
+  border: none;
+}
+
+.contact-us .contact-form .left button {
+  width: 16%;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: none;
+  background: #e9e3e3;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+.contact-us .contact-form .left button:hover {
+  border-radius: 2px;
+  background: #dad8d8;
+}
+
+.contact-us .contact-form .right {
+  width: 50%;
+  height: 70vh;
+  background: url("./images/wristwatches/7.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.elements {
+  margin: 0px 120px;
+  margin-top: 100px;
+}
+
+.elements .sub-ele {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 18vh;
+}
+
+.elements .sub-ele div .image {
+  height: 6vh;
+  width: 30px;
+  margin: 0 auto;
+}
+
+.elements .sub-ele div .content p {
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+  font-weight: 600;
+}
+
+.icons {
+  margin: 0px 120px;
+  height: 16vh;
+  padding: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.icons .sub-icons {
+  margin: 0 auto;
+  width: 40%;
+  padding: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer {
+  margin: 80px 0px 0px 0px;
+  height: 20vh;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.footer .footer-content {
+  height: 20vh;
+  margin: 0px 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .footer-content .rights-logo {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #fff;
+  padding: 0px 10px;
+}
+
+.footer .footer-content .rights-logo .rights {
+  margin: 0px 10px;
+}
+/*# sourceMappingURL=style.css.map */
